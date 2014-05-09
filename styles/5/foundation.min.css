@@ -9540,7 +9540,6 @@ dialog, .reveal-modal {
   display: none;
   position: absolute;
   z-index: 100;
-  width: 100vw;
   top: 0;
   left: 0;
   background-color: white;
@@ -9670,8 +9669,8 @@ dialog[open] {
 @media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
   /* line 200, foundation/components/_reveal.scss */
   dialog.full, .reveal-modal.full {
-    margin-left: -50vw;
-    width: 100vw;
+    margin-left: -inherit/2;
+    width: inherit;
   }
 }
 

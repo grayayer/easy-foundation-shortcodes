@@ -71,7 +71,7 @@ $close-reveal-modal-class: "close-reveal-modal" !default;
     display: none;
     position: absolute;
     z-index: 100;
-    width: 100vw;
+    // width: 100vw; gray disabled this because it wasn't working great on wp touch pro displays
     top:0;
     #{$default-float}: 0;
     @media #{$small-only} {
@@ -198,7 +198,7 @@ $close-reveal-modal-class: "close-reveal-modal" !default;
 
       dialog, .#{$reveal-modal-class} {
         &.full {
-          @include reveal-modal-base(false, 100vw);
+          @include reveal-modal-base(false, inherit);
           top:0;
           left:0;
           height: 100vh;
