@@ -1,0 +1,10 @@
+// GRAY'S ADDITION OF WHAT CONTAINERS TO APPLY FOUNDATION TO YOUR PROJECT
+
+   // Set box-sizing globally to handle padding and border widths
+    #primary,
+    #content //for mobile site
+     {
+      *, *:before, *:after {
+        @include box-sizing(border-box);
+      }
+    }
