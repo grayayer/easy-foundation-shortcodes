@@ -10668,3 +10668,12 @@ article {
   background: url("../../images/bg_contact.jpg");
   color: rgba(255, 255, 255, 0.9);
 }
+/* line 127, _yu_specific.scss */
+#primary #program_section, #primary #teacher_section, #primary #schedule_section, #primary #pricing_register_section, #primary #contact_section,
+#content #program_section,
+#content #teacher_section,
+#content #schedule_section,
+#content #pricing_register_section,
+#content #contact_section {
+  clear: both;
+}

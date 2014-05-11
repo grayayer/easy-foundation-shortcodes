@@ -124,4 +124,7 @@ width: 920px;
             color: rgba(255,255,255,.9);
         }                          
     }
+    #program_section, #teacher_section, #schedule_section, #pricing_register_section, #contact_section {
+        clear: both;
+    }
 }
