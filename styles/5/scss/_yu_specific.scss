@@ -59,6 +59,8 @@ width: 920px;
 .icon-yu-contact:before ,
 .icon-yu-register:before {
     margin-right: 10px;
+    position: relative;
+    top: 3px;
 }
 
 
@@ -82,4 +84,38 @@ width: 920px;
 			}
 		}
 	}
+}
+
+h1.section-title {
+    display: block;
+    background: wheat;
+    font-size: 3em;
+    margin-bottom: 20px !important; 
+    &[class^="icon-"]:before, &[class*=" icon-"]:before {
+        padding-left: 10px;
+    }
+    &#program {
+        background: url('../../images/bg_program.jpg');
+        color: rgba(255,255,255,.9);
+    }
+    &#teachers {
+        background: url('../../images/bg_teachers.jpg');
+        color: rgba(255,255,255,.9);
+    }
+    &#schedule {
+        background: url('../../images/bg_schedule.jpg');
+        color: rgba(255,255,255,.9);
+    } 
+    &#pricing {
+        background: url('../../images/bg_pricing.jpg');
+        color: rgba(255,255,255,.9);
+    }
+    &#register {
+        background: url('../../images/bg_register.jpg');
+        color: rgba(255,255,255,.9);
+    }
+    &#contact {
+        background: url('../../images/bg_contact.jpg');
+        color: rgba(255,255,255,.9);
+    }                          
 }
