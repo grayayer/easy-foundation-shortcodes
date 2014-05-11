@@ -10593,32 +10593,20 @@ article {
   content: "\e605";
 }
 
-/* line 60, _yu_specific.scss */
-.icon-yu-teachers:before,
-.icon-yu-schedule:before,
-.icon-yu-program:before,
-.icon-yu-pricing:before,
-.icon-yu-contact:before,
-.icon-yu-register:before {
-  margin-right: 10px;
-  position: relative;
-  top: 3px;
-}
-
-/* line 69, _yu_specific.scss */
+/* line 67, _yu_specific.scss */
 #gform_wrapper_5.gform_wrapper li.clearit .gfield_label {
   display: none;
 }
-/* line 72, _yu_specific.scss */
+/* line 70, _yu_specific.scss */
 #gform_wrapper_5.gform_wrapper .ginput_container {
   padding-bottom: 15px;
 }
-/* line 76, _yu_specific.scss */
+/* line 74, _yu_specific.scss */
 #gform_wrapper_5.gform_wrapper input, #gform_wrapper_5.gform_wrapper .ginput_container textarea {
   font-size: 16px;
   padding: 5px 2px 5px 10px;
 }
-/* line 79, _yu_specific.scss */
+/* line 77, _yu_specific.scss */
 #gform_wrapper_5.gform_wrapper input.button, #gform_wrapper_5.gform_wrapper .ginput_container textarea.button {
   padding-top: 1rem;
   padding-right: 2rem;
@@ -10627,43 +10615,56 @@ article {
 }
 
 /* line 89, _yu_specific.scss */
-h1.section-title {
+#primary h1.section-title,
+#content h1.section-title {
   display: block;
-  background: wheat;
-  font-size: 3em;
+  background: #61748d;
+  font-size: 2.5em;
   margin-bottom: 20px !important;
-}
-/* line 94, _yu_specific.scss */
-h1.section-title[class^="icon-"]:before, h1.section-title[class*=" icon-"]:before {
-  padding-left: 10px;
+  padding-top: 5px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
 }
 /* line 97, _yu_specific.scss */
-h1.section-title#program {
+#primary h1.section-title[class^="icon-"]:before, #primary h1.section-title[class*=" icon-"]:before,
+#content h1.section-title[class^="icon-"]:before,
+#content h1.section-title[class*=" icon-"]:before {
+  padding: 0 10px 0 14px;
+  position: relative;
+  top: 3px;
+}
+/* line 102, _yu_specific.scss */
+#primary h1.section-title#program,
+#content h1.section-title#program {
   background: url("../../images/bg_program.jpg");
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 101, _yu_specific.scss */
-h1.section-title#teachers {
+/* line 106, _yu_specific.scss */
+#primary h1.section-title#teachers,
+#content h1.section-title#teachers {
   background: url("../../images/bg_teachers.jpg");
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 105, _yu_specific.scss */
-h1.section-title#schedule {
+/* line 110, _yu_specific.scss */
+#primary h1.section-title#schedule,
+#content h1.section-title#schedule {
   background: url("../../images/bg_schedule.jpg");
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 109, _yu_specific.scss */
-h1.section-title#pricing {
+/* line 114, _yu_specific.scss */
+#primary h1.section-title#pricing,
+#content h1.section-title#pricing {
   background: url("../../images/bg_pricing.jpg");
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 113, _yu_specific.scss */
-h1.section-title#register {
+/* line 118, _yu_specific.scss */
+#primary h1.section-title#register,
+#content h1.section-title#register {
   background: url("../../images/bg_register.jpg");
   color: rgba(255, 255, 255, 0.9);
 }
-/* line 117, _yu_specific.scss */
-h1.section-title#contact {
+/* line 122, _yu_specific.scss */
+#primary h1.section-title#contact,
+#content h1.section-title#contact {
   background: url("../../images/bg_contact.jpg");
   color: rgba(255, 255, 255, 0.9);
 }
