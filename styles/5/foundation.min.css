@@ -10677,3 +10677,11 @@ article {
 #content #contact_section {
   clear: both;
 }
+
+/* line 135, _yu_specific.scss */
+#content .post-page-content > p,
+#content .post-page-content > div > p {
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+}
