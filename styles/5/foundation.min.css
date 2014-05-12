@@ -10686,8 +10686,17 @@ article {
   overflow: hidden;
 }
 
-/* line 142, _yu_specific.scss */
+/* line 143, _yu_specific.scss */
 .reveal-modal ul {
   list-style: disc;
   margin-left: 30px;
+}
+/* line 147, _yu_specific.scss */
+.reveal-modal h1 {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+/* line 151, _yu_specific.scss */
+.reveal-modal h2 {
+  margin-bottom: .75em;
 }
