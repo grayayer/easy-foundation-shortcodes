@@ -19,7 +19,7 @@ width: 920px;
     font-style: normal;
 }
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-yu-"]:before, [class*=" icon-yu-"]:before {
     font-family: 'yu-tt-iconfont';
     speak: none;
     font-style: normal;
@@ -127,7 +127,51 @@ width: 920px;
     #program_section, #teacher_section, #schedule_section, #pricing_register_section, #contact_section {
         clear: both;
     }
+
+    .tabs dd {
+        &.intention_tab,
+        &.topics_tab,
+        &.prerequisites_tab {
+            > a {
+                font-family: "Josefin Sans", sans-serif;
+                text-shadow: 1px 1px rgba(255,255,255,0.5);
+                color: #000;
+                font-size: 1.5em;
+                font-weight: 500;
+                text-align: center;
+            }    
+        }
+        &.intention_tab > a{
+            background: url('../../images/YU_boxIntention_bg.jpg');
+        }
+        &.topics_tab > a{
+            background: url('../../images/YU_boxTopics_bg.jpg');
+        }
+        &.prerequisites_tab > a{
+            background: url('../../images/YU_boxPrereq_bg.jpg');
+        }        
+
+    }
+    .tabs-content.vertical > {
+        #intention.content {
+            background: url('../../images/YU_boxIntention_bg.jpg');
+            padding: 0.9375rem;
+            text-shadow: 1px 1px rgba(255,255,255,0.5);
+        }
+        #topics.content{
+            background: url('../../images/YU_boxTopics_bg.jpg');            
+            padding: 0.9375rem;            
+            text-shadow: 1px 1px rgba(255,255,255,0.5);
+         }
+        #prerequisites.content {
+            background: url('../../images/YU_boxPrereq_bg.jpg');
+            padding: 0.9375rem;                     
+            text-shadow: 1px 1px rgba(255,255,255,0.5);
+        }
+    }
 }
+
+
 
 //mobile rules for typography
 #content {
