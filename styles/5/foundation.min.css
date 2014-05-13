@@ -201,14 +201,15 @@
 #content img {
   display: inline-block;
   vertical-align: middle;
+  background: rgba(255, 255, 255, 0.25);
 }
-/* line 355, foundation/components/_global.scss */
+/* line 356, foundation/components/_global.scss */
 #primary textarea,
 #content textarea {
   height: auto;
   min-height: 50px;
 }
-/* line 358, foundation/components/_global.scss */
+/* line 359, foundation/components/_global.scss */
 #primary select,
 #content select {
   width: 100%;
@@ -6854,11 +6855,6 @@ form.custom #primary div.switch .hidden-field, form.custom
 #content a:focus {
   color: #0078a0;
 }
-/* line 208, foundation/components/_type.scss */
-#primary a img,
-#content a img {
-  border: none;
-}
 /* line 212, foundation/components/_type.scss */
 #primary p,
 #content p {
@@ -8820,15 +8816,16 @@ img {
 img {
   display: inline-block;
   vertical-align: middle;
+  background: rgba(255, 255, 255, 0.25);
 }
 
-/* line 355, foundation/components/_global.scss */
+/* line 356, foundation/components/_global.scss */
 textarea {
   height: auto;
   min-height: 50px;
 }
 
-/* line 358, foundation/components/_global.scss */
+/* line 359, foundation/components/_global.scss */
 select {
   width: 100%;
 }
@@ -10550,7 +10547,7 @@ article {
 }
 
 /* line 22, _yu_specific.scss */
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-yu-"]:before, [class*=" icon-yu-"]:before {
   font-family: 'yu-tt-iconfont';
   speak: none;
   font-style: normal;
@@ -10677,8 +10674,56 @@ article {
 #content #contact_section {
   clear: both;
 }
-
 /* line 135, _yu_specific.scss */
+#primary .tabs dd.intention_tab > a, #primary .tabs dd.topics_tab > a, #primary .tabs dd.prerequisites_tab > a,
+#content .tabs dd.intention_tab > a,
+#content .tabs dd.topics_tab > a,
+#content .tabs dd.prerequisites_tab > a {
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+  color: #000;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+/* line 144, _yu_specific.scss */
+#primary .tabs dd.intention_tab > a,
+#content .tabs dd.intention_tab > a {
+  background: url("../../images/YU_boxIntention_bg.jpg");
+}
+/* line 147, _yu_specific.scss */
+#primary .tabs dd.topics_tab > a,
+#content .tabs dd.topics_tab > a {
+  background: url("../../images/YU_boxTopics_bg.jpg");
+}
+/* line 150, _yu_specific.scss */
+#primary .tabs dd.prerequisites_tab > a,
+#content .tabs dd.prerequisites_tab > a {
+  background: url("../../images/YU_boxPrereq_bg.jpg");
+}
+/* line 156, _yu_specific.scss */
+#primary .tabs-content.vertical > #intention.content,
+#content .tabs-content.vertical > #intention.content {
+  background: url("../../images/YU_boxIntention_bg.jpg");
+  padding: 0.9375rem;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+}
+/* line 161, _yu_specific.scss */
+#primary .tabs-content.vertical > #topics.content,
+#content .tabs-content.vertical > #topics.content {
+  background: url("../../images/YU_boxTopics_bg.jpg");
+  padding: 0.9375rem;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+}
+/* line 166, _yu_specific.scss */
+#primary .tabs-content.vertical > #prerequisites.content,
+#content .tabs-content.vertical > #prerequisites.content {
+  background: url("../../images/YU_boxPrereq_bg.jpg");
+  padding: 0.9375rem;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+/* line 179, _yu_specific.scss */
 #content .post-page-content > p,
 #content .post-page-content > div > p {
   padding-left: 20px;
@@ -10686,17 +10731,17 @@ article {
   overflow: hidden;
 }
 
-/* line 143, _yu_specific.scss */
+/* line 187, _yu_specific.scss */
 .reveal-modal ul {
   list-style: disc;
   margin-left: 30px;
 }
-/* line 147, _yu_specific.scss */
+/* line 191, _yu_specific.scss */
 .reveal-modal h1 {
   margin: 0;
   font-family: "Josefin Sans", sans-serif;
 }
-/* line 151, _yu_specific.scss */
+/* line 195, _yu_specific.scss */
 .reveal-modal h2 {
   margin-bottom: .75em;
 }
