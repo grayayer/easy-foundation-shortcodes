@@ -211,3 +211,7 @@ width: 920px;
 .post .gform_wrapper form, .page .gform_wrapper form { /*prevents the gray box around the form*/
     background: transparent;
 }
+
+.hide_mobile {
+    display: none;
+}
