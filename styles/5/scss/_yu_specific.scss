@@ -207,3 +207,7 @@ width: 920px;
         margin-bottom: .75em;
     }
 }
+
+.post .gform_wrapper form, .page .gform_wrapper form { /*prevents the gray box around the form*/
+    background: transparent;
+}
