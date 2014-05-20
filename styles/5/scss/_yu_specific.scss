@@ -6,6 +6,43 @@ article {
 width: 920px;
 }
 
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Josefin Sans Thin'), local('JosefinSans-Thin'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v5/q9w3H4aeBxj0hZ8Osfi3d9kWwCWWHt2eabdCtA6ddDc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans'), local('JosefinSans'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v5/xgzbb53t8j-Mo-vYa23n5qRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v5/C6HYlRF50SGJq1XyXj04zxAPw1J91axKNXP_-QX9CC8.woff) format('woff');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Josefin Sans Thin Italic'), local('JosefinSans-ThinItalic'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v5/s7-P1gqRNRNn-YWdOYnAOUU4uDXlcIT8_0bdRGwoYww.woff) format('woff');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Josefin Sans Italic'), local('JosefinSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v5/q9w3H4aeBxj0hZ8Osfi3d752ooqJRs02xO3mONBoqeI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Josefin Sans Bold Italic'), local('JosefinSans-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v5/ppse0J9fKSaoxCIIJb33G7z7bF_NE717IFsea40dLmU.woff) format('woff');
+}
+
 
 //this is oddly getting placed elsewhere in the document
 @font-face {
@@ -212,6 +249,6 @@ width: 920px;
     background: transparent;
 }
 
-.hide_mobile {
+.post-page-content .hide_mobile { /*hides the title on mobile devices*/
     display: none;
 }
