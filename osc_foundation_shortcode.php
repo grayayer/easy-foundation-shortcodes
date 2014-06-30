@@ -1,13 +1,10 @@
 <?php
 
 /*
-  Plugin Name: Easy Foundation Shortcodes
-  Plugin URI: http://www.oscitasthemes.com
+  Plugin Name: Yoga Union Foundation Shortcodes
   Description: Add Zurb Foundation styles to your theme by wordpress editor shortcode buttons.
-  Version: 2.4.0
-  Author: oscitas
-  Author URI: http://www.oscitasthemes.com
-  License: Under the GPL v2 or later
+  Version: 100.2.4.0
+  Author: oscitas, edited by Gray
  */
 function osc_efs_plugin_exists( $prevent ) {
     return 'efs';

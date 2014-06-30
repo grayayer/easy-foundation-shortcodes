@@ -85,11 +85,17 @@ width: 920px;
 .icon-yu-contact:before {
     content: "\e604";
 }
+
+.icon-yu-testimonials:before {
+    content: "\e600";
+}
+
 .icon-yu-register:before {
     content: "\e605";
 }
 
 .icon-yu-teachers:before,
+.icon-yu-testimonials:before,
 .icon-yu-schedule:before,
 .icon-yu-program:before ,
 .icon-yu-pricing:before ,
@@ -100,25 +106,25 @@ width: 920px;
 
 
 #gform_wrapper_5, #gform_wrapper_7 {
-	&.gform_wrapper {
-		li.clearit .gfield_label {
-			display: none;
-		}
-		.ginput_container {
-			padding-bottom: 15px;
-		}
+    &.gform_wrapper {
+        li.clearit .gfield_label {
+            display: none;
+        }
+        .ginput_container {
+            padding-bottom: 15px;
+        }
 
-		input, .ginput_container textarea {
-			font-size: 16px;
-			padding: 5px 2px 5px 10px;
-			&.button {
-				padding-top: 1rem;
-				padding-right: 2rem;
-				padding-bottom: 1.0625rem;
-				padding-left: 2rem;
-			}
-		}
-	}
+        input, .ginput_container textarea {
+            font-size: 16px;
+            padding: 5px 2px 5px 10px;
+            &.button {
+                padding-top: 1rem;
+                padding-right: 2rem;
+                padding-bottom: 1.0625rem;
+                padding-left: 2rem;
+            }
+        }
+    }
 }
 #primary, //for the desktop site
 #content //for the mobile site
@@ -159,9 +165,13 @@ width: 920px;
         &#contact {
             background: url('../../images/bg_contact.jpg');
             color: rgba(255,255,255,.9);
-        }                          
+        }
+        &#testimonials {
+            background: url('../../images/bg_testimonials.jpg');
+            color: rgba(255,255,255,.9);
+        }                                  
     }
-    #program_section, #teacher_section, #schedule_section, #pricing_register_section, #contact_section {
+    #program_section, #teacher_section, #schedule_section, #pricing_register_section, #testimonials_section, #contact_section {
         clear: both;
     }
 
