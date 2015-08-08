@@ -262,3 +262,34 @@ width: 920px;
 .post-page-content .hide_mobile { /*hides the title on mobile devices*/
     display: none;
 }
+
+
+/*teacher blocks*/
+ul.small-block-grid-5 {
+    li {
+        a { 
+            text-align: center;
+            width: 100%;
+            display: inline-block;
+        }
+        img {
+            margin: 0 0 4px 0;
+        }
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    
+    #content {
+        h1.section-title {
+            &[class^="icon-"]:before, &[class*=" icon-"]:before {
+                padding: 0 40px 0 0;  
+            }
+        }
+    }
+
+    ul.small-block-grid-5 li a {
+        font-size: .8em;
+    }
+}
