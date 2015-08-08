@@ -280,16 +280,17 @@ ul.small-block-grid-5 {
 
 
 @media screen and (max-width:600px) {
-    
+    ul.small-block-grid-5 li a {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width:1024px) { /*in order so that the icons have better display on mobile*/
     #content {
         h1.section-title {
             &[class^="icon-"]:before, &[class*=" icon-"]:before {
                 padding: 0 40px 0 0;  
             }
         }
-    }
-
-    ul.small-block-grid-5 li a {
-        font-size: .8em;
     }
 }
